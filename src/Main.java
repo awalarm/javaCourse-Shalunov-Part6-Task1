@@ -101,7 +101,7 @@ public class Main {
     }
 
     private static String exponentiation(int x, int y){
-        answer = x ^ y;
+        answer = (int) Math.pow(x, y);
         return "\"^\" - " + x + "^" + y + "=" + answer;
     }
 
